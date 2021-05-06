@@ -1,0 +1,42 @@
+body {
+    margin:0px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+.container {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+}
+.container .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    margin-top: 30px;
+}
+.container .header .left-column, .right-column {
+    display: flex;
+    align-items: center;
+}
+
+.container .header .left-column a {
+    margin-left: 20px;
+}
+
+.container .header .right-column a, img{
+    margin-right: 20px;
+}
+
+.container .header .right-column img {
+    height: 32px;
+    width: 32px;
+}
+.container .header .right-column #profile-pic {
+    border-radius: 100%;
+}
