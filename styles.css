@@ -40,3 +40,12 @@ a {
 .container .header .right-column #profile-pic {
     border-radius: 100%;
 }
+
+.content {
+    border-block: none;
+    margin-bottom: auto;
+}
+
+input {
+    width: 400px;
+}
